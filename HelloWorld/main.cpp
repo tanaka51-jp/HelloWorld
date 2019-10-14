@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main()
 {
-  std::cout << "Hello, World!" << std::endl;
+  cout << "Hello, World!" << endl;
 
-  std::string s;
-  std::getline(std::cin, s);
+  string s;
+  getline(cin, s);
 }
